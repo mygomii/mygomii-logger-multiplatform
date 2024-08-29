@@ -25,9 +25,9 @@ dependencyResolutionManagement {
             }
         }
         mavenCentral()
+        jcenter() //here
     }
 }
 
 include(":sample")
-include(":shared")
 include(":logger")

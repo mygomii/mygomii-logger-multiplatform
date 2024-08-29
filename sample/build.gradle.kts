@@ -40,7 +40,6 @@ kotlin {
             implementation(compose.ui)
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
-            implementation(projects.shared)
             implementation(projects.logger)
         }
     }
@@ -58,7 +57,7 @@ android {
         applicationId = "com.mygomii"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        versionCode = 2
+        versionCode = 3
         versionName = "1.0"
     }
     packaging {
