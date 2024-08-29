@@ -1,4 +1,4 @@
-package com.mygomii.composeApp
+package com.mygomii.sample
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
@@ -15,8 +15,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.example.shared.Greeting
-import mygomiiloggermultiplatform.composeapp.generated.resources.Res
-import mygomiiloggermultiplatform.composeapp.generated.resources.compose_multiplatform
+import mygomiiloggermultiplatform.sample.generated.resources.Res
+import mygomiiloggermultiplatform.sample.generated.resources.compose_multiplatform
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
 

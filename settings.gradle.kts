@@ -28,7 +28,6 @@ dependencyResolutionManagement {
     }
 }
 
-
-include(":composeApp")
+include(":sample")
 include(":shared")
 include(":logger")

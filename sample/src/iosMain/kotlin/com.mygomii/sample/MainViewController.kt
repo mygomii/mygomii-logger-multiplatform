@@ -1,4 +1,4 @@
-package com.mygomii.composeApp
+package com.mygomii.sample
 
 import androidx.compose.ui.window.ComposeUIViewController
 

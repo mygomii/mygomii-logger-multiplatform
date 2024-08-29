@@ -1,9 +1,9 @@
-package com.mygomii.composeApp
+package com.mygomii.sample
 
 import android.app.Application
 import com.mygomii.logger.initializeLogger
 
-class App : Application() {
+class LoggerApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
